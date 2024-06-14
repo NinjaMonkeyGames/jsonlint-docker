@@ -13,7 +13,7 @@ breaking the pipeline.
 You can use the following command to lint all JSON files.
 
 ```shell
-jsonlint *.json
+find . -name "*.json" -type f | xargs jsonlint
 ```
 
 See links below for more information about JSON Lint and Alpine Linux.
@@ -71,6 +71,7 @@ This project uses a sequential versioning system.
 | Version No:    | Description Of Update                                                                               |
 |----------------|-----------------------------------------------------------------------------------------------------|
 | 0.0.0.0        | Base files included.                                                                                |
+| 0.0.0.1        | Updated lint code.                                                                                  |
 
 ---
 
